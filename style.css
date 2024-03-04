@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+   
+}
+.container .choices{
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  margin: 0 0.4rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f5429e;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.container .startGame{
+   display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    background-color: #42d7f5;
+    margin-top: 1rem;
+    margin-left: 3.3rem;
+    
+}
+.container .select-choice{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.5rem;
+    display: none;
+
+}
+.select-choice.active{
+   display: block;
+}
+/* @media only screen and (max-width: 170px) {
+    .choices {
+     margin: auto;
+    }
+  } */
